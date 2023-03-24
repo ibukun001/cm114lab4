@@ -1,16 +1,16 @@
 header {
-    background-color:lightblue;
-    padding: 20px;
+    background-color:slategray;
+    padding: 30px;
     border:  solid black;
-    margin: 20px;
+    margin: 10px;
 }
 #logo {
-    width: 60px;
-    height: 55px;
+    width: 70px;
+    height: 60px;
     float: left;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: none;
+    margin-right: 20px;
+    margin: 2px;
+    margin-left: 10px;
 
 }
 #left-col{
@@ -23,26 +23,11 @@ header {
 
 }
 
-#bottom-col{
-    float: left;
-    width: 40%;
+h1{
+    color: none;
 }
 
-#top-col{
-    float: left;
-    width: 50%;
-}
-
-h1 {
-    color: blue;
-    
-    
-}
-
-    p{
-        color: lightblue;
-    }
-    p,h1,h2,h3,h4,h5,h6,p{
+    p,h2,h3,h4,h5,h6,p{
         color:black;
     }
 
@@ -83,7 +68,7 @@ nav ul {
 
 nav li {
     border:  solid lightblue;
-    background-color: blue;
+    background-color: black;
     list-style-type: none;
     float: left;
     width: 20%;
@@ -97,32 +82,36 @@ nav li a{
 }
 
 nav li:hover{
-    background-color:black;
+    background-color:lightskyblue;
 }
 
 main {
-    background-color: white;
-    border: 3px solid whitesmoke;
+    background-color: azure;
+    border: 3px solid white;
 }
 
 #login{
     float: right;
-    border: 5px;
+    margin: 0px;
+    margin-bottom: 20px;
    
-
-
+    
 }
 
 #home-carousel {
     width: 50%;
+    height: 60%;
     margin-left:auto;
     margin-right:auto;
 }
 
 .carousel-item {
-    height: 500px;
+    height: 600px;
+    width: 600px;
+
 }
 
 fieldset {
     border: 1px groove #ddd;
+    
 }
