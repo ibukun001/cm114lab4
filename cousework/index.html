@@ -13,7 +13,7 @@
         <header>
             <img  src = "images/gymlogo.jpg" id = "logo" class="rounded-circle"/> 
             <a href= "index.html"><h1> BIG AND JACKED GYM</h1></a>
-            
+    <!-- login form -->
             <div id = "Login">
                 <form>
                   
@@ -23,13 +23,13 @@
                   <label for="Login_password">Password:</label>
                   <input type="Password" name="Login_password" value=""/> 
       
-                  <button type="button" onclick="alert('You have been logged in!')">Login</button>
+                  <button type="button" onclick="login()">Login</button>
       
                  </form>
 
             
         </header>
-     
+    <!-- Nav bar --> 
         <nav>
             <ul>
                 <li><a href= "index.html">HOME</a> </li>
@@ -49,9 +49,10 @@
             <div>
                 <div class="container">
                     <div style="text-align:center">
-                <h1> Wellcome to Big and Jacked Gym.</h1>
+                <h1> Wellcome to Big and Jacked Gym, your one-stop fitness haven. We offer top-notch equipment, tailored training programs and a supportive community to help you reach your goals. join us and unleash uour full potential. lets get big, jacked and unstopable together!</h1>
                 </div>
             </div>
+            <!-- home page carousel -->
             <div class="active">
                 <div id="home-carousel" class="carousel slide" data-bs-ride="carousel">
                 <!-- Wrapper -->
@@ -73,9 +74,6 @@
 
         </main>
         <script>
-            function login(){
-                alert('You have been logged in!');
-            }
             var counter = 2;
             function login(){
                 if(counter % 2 == 0){
@@ -86,12 +84,12 @@
             }
             counter += 1;
             }
-</script> 
-
-            </script>
+        </script> 
 
     <aside> </aside>
-    <footer> </footer>
+    <footer> 
+        <a href="mailto:bigandjackedgym.com">Copyright 2023 by Refsnes Data. All Rights Reserved.</a></p>
+    </footer>
 
     </body>
 </html>
